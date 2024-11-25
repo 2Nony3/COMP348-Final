@@ -11,14 +11,14 @@ def send_number(number):
     number = 999
   
 # complex objects are passed as a copy of the reference. As seen below,
-# the original object cannot be re-assigned by changing the reference
+# the original object cannot be re-assigned by changing the reference TODO
 # inside the method.   
 def swap_list(list1):
     list1 = ['dog', 'cat', 'bird']    
         
    
 # We can, however, change data within the object since the original
-# reference and the copy of the reference point to the same thing.  
+# reference and the copy of the reference point to the same thing.  #TODO
 def update_list(list1):
     list1[0] = ['dog']
   

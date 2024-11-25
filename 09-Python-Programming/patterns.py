@@ -1,11 +1,11 @@
 # Pattern 1: Incrementing
 print("Pattern 1:")
 for i in range(1, 6):
-    print('*' * i)
+    print('*' * i) # this line will print '*' i times
 
 # Pattern 2: Decrementing
 print("\nPattern 2:")
-for i in range(5, 0, -1):
+for i in range(5, 0, -1):# the -1 in this line is the step value which is used to decrement the value of i
     print('*' * i)
 
 # Pattern 3: Right-angled Triangle

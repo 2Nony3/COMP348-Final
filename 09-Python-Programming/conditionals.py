@@ -1,6 +1,6 @@
 print("Loop 1: simple While countdown")
 x = 10
-while(x):
+while(x): # this while loop will run until x is 0
     print(x)
     x -= 1   
     
@@ -11,7 +11,7 @@ for x in ['dog', 'bird', 'bear', 'cat']:
   
 # the range function is quite useful   
 print("\n\nloop 3: simple range")
-for x in range(10):
+for x in range(10): # this will loop 10 times
     print(x) 
    
    
