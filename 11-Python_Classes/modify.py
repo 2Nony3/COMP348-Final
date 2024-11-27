@@ -18,12 +18,12 @@ print(x.dog)
 
 
 #y = MyClass()
-#print y.dog
+#print (y.dog) # this will throw an error as dog is not a class variable
 
 
-#MyClass.pop = "pop"
-#y = MyClass()
-#print y.pop
+MyClass.pop = "pop"
+y = MyClass()
+print (y.pop) # some ides may not recognize dynamically added attributes
 
-#del(x.dog)
-#print x.dog  
+del(x.dog)
+#print (x.dog) # this will throw an error as dog is deleted from x

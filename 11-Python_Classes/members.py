@@ -26,12 +26,12 @@ print("p.y: ", p.y)
 
 
 
-#print "\nafter 2nd updates..."
-#del(m.x)
-#Baz.x = "test"
+print ("\nafter 2nd updates...")
+del m.x # this will delete the instance variable x from m and when we try to access it will get the class variable x and modify the value for all constructor
+Baz.x = "test"
 
-#print "m.x: ", m.x
-#print "m.y: ", m.y
-#print "p.x: ", p.x
-#print "p.y: ", p.y
+print ("m.x: ", m.x)
+print ("m.y: ", m.y)
+print ("p.x: ", p.x)
+print ("p.y: ", p.y)
 

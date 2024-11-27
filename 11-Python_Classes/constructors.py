@@ -11,7 +11,7 @@ class Baz:
         self.bat = bat
         
     def display(self):
-        print("Baz.bop:", self.bop, "Baz.bat:", self.bat)
+        print("Baz.bop:", self.bop, "Baz.bat:", self.bat) # self.bop is a class variable, self.bat is an instance variable
         
 
 class Flip:
@@ -34,8 +34,8 @@ myBaz = Baz()
 myBaz.display()
 
 # try this
-#myFlip1 = Flip()
-#myFlip1.display()
+myFlip1 = Flip() # this will throw an error as we are not passing the required arguments
+myFlip1.display()
 
 myFlip2 = Flip(9999)
 myFlip2.display()
